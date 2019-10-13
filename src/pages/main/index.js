@@ -37,7 +37,7 @@ export default class Main extends Component {
                             </div>
 
                             <div className="profile-picture">
-                                <img src={this.baseUrl+teaching.author.profilePicture.url} alt={`${teaching.author.about}`}></img>
+                                <img src={teaching.author.profilePicture.url} alt={`${teaching.author.about}`}></img>
                             </div>
 
                             <div className="author-name">
