@@ -7,7 +7,6 @@ export default class Main extends Component {
         teachings: [],
     }
 
-    baseUrl = 'https://religian-api.herokuapp.com';
     options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 
     componentDidMount() {
