@@ -15,7 +15,6 @@ export default class Main extends Component {
 
     loadTeachings = async () => {
         const { data } = await api.get('/teachings');
-        console.table(data);
         this.setState({ teachings: data });
     };
 
